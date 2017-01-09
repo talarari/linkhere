@@ -85,7 +85,7 @@
 	    { path: '/linkhere/example', mapMenuTitle: 'Example', component: _ExampleComponent2.default },
 	    _react2.default.createElement(_reactRouter.Route, { path: '/two-deep', mapMenuTitle: 'Two Deep', component: _ExampleTwoDeepComponent2.default })
 	  ),
-	  _react2.default.createElement(_reactRouter.Route, { path: '/linkhere/*', mapMenuTitle: 'Page Not Found', component: _PageNotFound2.default })
+	  _react2.default.createElement(_reactRouter.Route, { path: '/*', mapMenuTitle: 'Page Not Found', component: _PageNotFound2.default })
 	);
 
 	(0, _reactDom.render)(_react2.default.createElement(_reactRouter.Router, {

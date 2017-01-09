@@ -17,7 +17,7 @@ const routes = (
       <Route path="/two-deep" mapMenuTitle="Two Deep" component={ExampleTwoDeepComponent} />
     </Route>
 
-    <Route path="/linkhere/*" mapMenuTitle="Page Not Found" component={PageNotFound} />
+    <Route path="/*" mapMenuTitle="Page Not Found" component={PageNotFound} />
   </Route>
 );
 
