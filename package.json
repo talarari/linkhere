@@ -4,7 +4,8 @@
   "description": "Single Page Apps for GitHub Pages",
   "scripts": {
     "start": "webpack-dev-server -d --inline --host 0.0.0.0 --history-api-fallback --progress",
-    "build":"webpack"
+    "build":"webpack",
+    "publish": "npm run build && git add . && git commit -m \"publish\" && git push origin gh-pages"
   },
   "repository": {
     "type": "git",
