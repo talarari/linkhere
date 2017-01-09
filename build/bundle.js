@@ -78,12 +78,12 @@
 
 	var routes = _react2.default.createElement(
 	  _reactRouter.Route,
-	  { path: '/', mapMenuTitle: 'Home', component: _App2.default },
+	  { path: '/linkhere', mapMenuTitle: 'Home', component: _App2.default },
 	  _react2.default.createElement(_reactRouter.IndexRoute, { component: _Home2.default }),
 	  _react2.default.createElement(
 	    _reactRouter.Route,
-	    { path: 'example', mapMenuTitle: 'Example', component: _ExampleComponent2.default },
-	    _react2.default.createElement(_reactRouter.Route, { path: 'two-deep', mapMenuTitle: 'Two Deep', component: _ExampleTwoDeepComponent2.default })
+	    { path: '/linkhere/example', mapMenuTitle: 'Example', component: _ExampleComponent2.default },
+	    _react2.default.createElement(_reactRouter.Route, { path: 'linkhere/two-deep', mapMenuTitle: 'Two Deep', component: _ExampleTwoDeepComponent2.default })
 	  ),
 	  _react2.default.createElement(_reactRouter.Route, { path: '*', mapMenuTitle: 'Page Not Found', component: _PageNotFound2.default })
 	);
